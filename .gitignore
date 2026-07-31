@@ -1,0 +1,8 @@
+test/*
+!test/*.cpp
+!test/*.h
+!test/*.json
+!test/Makefile
+*.o
+*.png
+.DS_Store

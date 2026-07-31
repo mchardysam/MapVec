@@ -1,0 +1,192 @@
+{
+ "note": "Hand-written Overpass-style fixture for the producer<->parser round-trip test. Synthetic coordinates near -35, 149; no real place.",
+ "elements": [
+  {
+   "type": "way",
+   "id": 1,
+   "tags": {
+    "highway": "residential",
+    "name": "Test Street"
+   },
+   "geometry": [
+    {
+     "lat": -35.001,
+     "lon": 149.0
+    },
+    {
+     "lat": -35.0,
+     "lon": 149.001
+    },
+    {
+     "lat": -34.999,
+     "lon": 149.002
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 2,
+   "tags": {
+    "natural": "water",
+    "name": "Test Pond"
+   },
+   "geometry": [
+    {
+     "lat": -35.0015,
+     "lon": 149.0025
+    },
+    {
+     "lat": -35.0015,
+     "lon": 149.0035
+    },
+    {
+     "lat": -35.0025,
+     "lon": 149.0035
+    },
+    {
+     "lat": -35.0025,
+     "lon": 149.0025
+    },
+    {
+     "lat": -35.0015,
+     "lon": 149.0025
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 3,
+   "tags": {
+    "leisure": "park",
+    "name": "Test Park"
+   },
+   "geometry": [
+    {
+     "lat": -34.998,
+     "lon": 148.998
+    },
+    {
+     "lat": -34.998,
+     "lon": 148.999
+    },
+    {
+     "lat": -34.9975,
+     "lon": 148.9985
+    },
+    {
+     "lat": -34.998,
+     "lon": 148.998
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 4,
+   "tags": {
+    "waterway": "stream",
+    "name": "Test Creek"
+   },
+   "geometry": [
+    {
+     "lat": -35.005,
+     "lon": 148.995
+    },
+    {
+     "lat": -35.0,
+     "lon": 149.0
+    },
+    {
+     "lat": -34.995,
+     "lon": 149.005
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "id": 5,
+   "lat": -35.0005,
+   "lon": 149.0005,
+   "tags": {
+    "amenity": "school",
+    "name": "Test Primary"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6,
+   "lat": -35.0,
+   "lon": 149.0,
+   "tags": {
+    "place": "suburb",
+    "name": "Testville"
+   }
+  },
+  {
+   "type": "way",
+   "id": 101,
+   "tags": {
+    "highway": "cycleway",
+    "name": "Test Bike Path"
+   },
+   "geometry": [
+    {
+     "lat": -35.0015,
+     "lon": 149.0005
+    },
+    {
+     "lat": -35.0005,
+     "lon": 149.0015
+    },
+    {
+     "lat": -34.9995,
+     "lon": 149.0025
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 102,
+   "tags": {
+    "highway": "footway",
+    "bicycle": "designated",
+    "name": "Test Shared Path"
+   },
+   "geometry": [
+    {
+     "lat": -35.0012,
+     "lon": 149.0018
+    },
+    {
+     "lat": -35.0002,
+     "lon": 149.0022
+    },
+    {
+     "lat": -34.9992,
+     "lon": 149.0026
+    }
+   ]
+  },
+  {
+   "type": "way",
+   "id": 103,
+   "tags": {
+    "highway": "footway",
+    "name": "Test Footpath"
+   },
+   "geometry": [
+    {
+     "lat": -35.0011,
+     "lon": 149.0002
+    },
+    {
+     "lat": -35.0001,
+     "lon": 149.0006
+    },
+    {
+     "lat": -34.9991,
+     "lon": 149.001
+    }
+   ]
+  }
+ ]
+}
